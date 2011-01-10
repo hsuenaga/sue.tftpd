@@ -1,0 +1,89 @@
+2002/10/24
+  Version: 1.0.7
+  Features:
+    Static Counter
+
+  TODO:
+    Task API clean-up.
+    Pakcet Buffer API clean-up.
+    WRQ support.
+    netascii support.
+    Error packet handling.
+    destination filtering.
+    singal handling.
+
+2002/10/20
+  Version: 1.0.6
+  Bugfix:
+    NetBSD compilation problem.
+
+  Features:
+    bind() address selection.
+
+  TODO:
+    Task API clean-up.
+    Packet Buffer API clean-up.
+    WRQ support.
+    netascii support.
+    Error packet handling.
+    destination filtering.
+
+2002/10/18
+  Version: 1.0.5
+  Bugfix:
+    compilation problem.
+
+2002/10/18
+  Version: 1.0.4
+  Bugfix:
+    retransmit failure.
+    check packet size to avoid buffer overrun.
+
+  TODO:
+    WRQ support.
+    netascii support.
+    Error packet handling.
+    bind() address selection.
+    destination filtering.
+
+2002/10/18
+  Version: 1.0.3
+  Code cleanup.
+  Features:
+    log file supported.
+    pid file supported.
+    daemon() supported.
+    chroot() supported.
+    symbolic link check support.
+
+  TODO:
+    WRQ support.
+    Erorr pakcet handling.
+
+2002/10/17
+  Version: 1.0.2
+  Fix block number count mistake. Version 1.0.1 can't transfer file.
+
+2002/10/17
+  Version: 1.0.1
+  Features:
+    Retransmit supported. Interval is initial 0.5[s] and exponential backoff
+    with factor 2.
+
+  TODO:
+    log file support.
+    WRQ support.
+    daemon() support.
+    chroot() support.
+    symbolic link check support.
+
+2002/10/16
+  Initial Release.
+
+  Features:
+    TFTP RRQ(but no retransmit supported.)
+
+  TODO:
+    Retrasmit support.
+    WRQ support.
+    code blush up.

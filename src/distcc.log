@@ -1,0 +1,1826 @@
+distcc[1625] safeguard level=0
+distcc[1625] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1625] found input file "proto_udp.c"
+distcc[1625] no visible output file, going to add "-o proto_udp.o" at end
+distcc[1625] compile from proto_udp.c to proto_udp.o
+distcc[1625] client got connection to port 3633 on fd4
+distcc[1625] got ZCLL00000041
+distcc[1625] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1625] found tcp token "pbg4al.local.:3632"
+distcc[1625] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1625] found tcp token "Argento.local.:3632"
+distcc[1625] got cpu lock on pbg4al.local. slot 0
+distcc[1625] got xmit lock on pbg4al.local. slot 0
+distcc[1625] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1625] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1625] child started as pid1627
+distcc[1625] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo -o proto_udp.o
+distcc[1625] result: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1625] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1627] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1629] safeguard level=0
+distcc[1629] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1629] found input file "pkt_buff.c"
+distcc[1629] no visible output file, going to add "-o pkt_buff.o" at end
+distcc[1629] compile from pkt_buff.c to pkt_buff.o
+distcc[1629] client got connection to port 3633 on fd4
+distcc[1629] got ZCLL00000041
+distcc[1629] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1629] found tcp token "pbg4al.local.:3632"
+distcc[1629] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1629] found tcp token "Argento.local.:3632"
+distcc[1629] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1629] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1629] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1629] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1629] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1629] child started as pid1631
+distcc[1629] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo -o pkt_buff.o
+distcc[1629] result: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1629] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1631] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1625] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1625] send DIST00000001
+distcc[1625] send ARGC00000009
+distcc[1625] send ARGV00000002
+distcc[1625] send ARGV00000002
+distcc[1625] send ARGV00000003
+distcc[1625] send ARGV00000005
+distcc[1625] send ARGV00000007
+distcc[1625] send ARGV00000002
+distcc[1625] send ARGV0000000b
+distcc[1625] send ARGV00000002
+distcc[1625] send ARGV0000000b
+distcc[1629] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1629] send DIST00000001
+distcc[1629] send ARGC00000009
+distcc[1629] send ARGV00000002
+distcc[1629] send ARGV00000002
+distcc[1629] send ARGV00000003
+distcc[1629] send ARGV00000005
+distcc[1629] send ARGV00000007
+distcc[1629] send ARGV00000002
+distcc[1629] send ARGV0000000a
+distcc[1629] send ARGV00000002
+distcc[1629] send ARGV0000000a
+distcc[1634] safeguard level=0
+distcc[1634] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1634] found input file "tftpd.c"
+distcc[1634] no visible output file, going to add "-o tftpd.o" at end
+distcc[1634] compile from tftpd.c to tftpd.o
+distcc[1634] client got connection to port 3633 on fd4
+distcc[1634] got ZCLL00000041
+distcc[1634] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1634] found tcp token "pbg4al.local.:3632"
+distcc[1634] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1634] found tcp token "Argento.local.:3632"
+distcc[1634] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1634] /tmp/distcc_000001f5/lock_cpu_tcp_sue-pbg4titan.local._3632_0 is busy
+distcc[1634] got cpu lock on Argento.local. slot 0
+distcc[1634] got xmit lock on Argento.local. slot 0
+distcc[1634] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1634] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1634] child started as pid1636
+distcc[1634] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo -o tftpd.o
+distcc[1634] result: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1634] exec on Argento.local.: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1636] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1634] client got connection to Argento.local. port 3632 on fd0
+distcc[1634] send DIST00000001
+distcc[1634] send ARGC00000009
+distcc[1634] send ARGV00000002
+distcc[1634] send ARGV00000002
+distcc[1634] send ARGV00000003
+distcc[1634] send ARGV00000005
+distcc[1634] send ARGV00000007
+distcc[1634] send ARGV00000002
+distcc[1634] send ARGV00000007
+distcc[1634] send ARGV00000002
+distcc[1634] send ARGV00000007
+distcc[1629] child 1631 terminated with status 0
+distcc[1629] cpp resource usage: 0.040000s user, 0.020000s system
+distcc[1629] cpp on h067n185.iij.ad.jp completed ok
+distcc[1629] send 29853 byte file /tmp/distcc_000001f5/cppout_0000001629.i with token DOTI
+distcc[1629] send DOTI0000749d
+distcc[1629] 29853 bytes sent in 0.001s, rate 23064kB/s
+distcc[1629] client finished sending request to server
+distcc[1629] release lock
+distcc[1634] child 1636 terminated with status 0
+distcc[1634] cpp resource usage: 0.030000s user, 0.030000s system
+distcc[1634] cpp on h067n185.iij.ad.jp completed ok
+distcc[1634] send 42735 byte file /tmp/distcc_000001f5/cppout_0000001634.i with token DOTI
+distcc[1634] send DOTI0000a6ef
+distcc[1634] 42735 bytes sent in 0.001s, rate 44923kB/s
+distcc[1634] client finished sending request to server
+distcc[1634] release lock
+distcc[1625] child 1627 terminated with status 0
+distcc[1625] cpp resource usage: 0.030000s user, 0.030000s system
+distcc[1625] cpp on h067n185.iij.ad.jp completed ok
+distcc[1625] send 46604 byte file /tmp/distcc_000001f5/cppout_0000001625.i with token DOTI
+distcc[1625] send DOTI0000b60c
+distcc[1625] 46604 bytes sent in 0.001s, rate 46441kB/s
+distcc[1625] client finished sending request to server
+distcc[1625] release lock
+distcc[1629] got DONE00000001
+distcc[1629] got response header
+distcc[1629] got STAT00000000
+distcc[1629] got SERR00000000
+distcc[1629] got SOUT00000000
+distcc[1629] got DOTO00001a0c
+distcc[1629] received 6668 bytes to file pkt_buff.o
+distcc[1629] 6668 bytes received in 0.001s, rate 11546kB/s
+distcc[1629] release lock
+distcc[1629] compile on sue-pbg4titan.local. completed ok
+distcc[1629] exit: code 0; self: 0.10000 user 0.0000 sys; children: 0.40000 user 0.20000 sys
+distcc[1629] deleted 1 temporary files
+distcc[1645] safeguard level=0
+distcc[1645] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1645] found input file "proto_tftp.c"
+distcc[1645] no visible output file, going to add "-o proto_tftp.o" at end
+distcc[1645] compile from proto_tftp.c to proto_tftp.o
+distcc[1645] client got connection to port 3633 on fd4
+distcc[1645] got ZCLL00000041
+distcc[1645] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1645] found tcp token "pbg4al.local.:3632"
+distcc[1645] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1645] found tcp token "Argento.local.:3632"
+distcc[1645] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1645] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1645] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1645] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1645] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1645] child started as pid1647
+distcc[1645] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo -o proto_tftp.o
+distcc[1645] result: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1645] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1647] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1645] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1645] send DIST00000001
+distcc[1645] send ARGC00000009
+distcc[1645] send ARGV00000002
+distcc[1645] send ARGV00000002
+distcc[1645] send ARGV00000003
+distcc[1645] send ARGV00000005
+distcc[1645] send ARGV00000007
+distcc[1645] send ARGV00000002
+distcc[1645] send ARGV0000000c
+distcc[1645] send ARGV00000002
+distcc[1645] send ARGV0000000c
+distcc[1645] child 1647 terminated with status 0
+distcc[1645] cpp resource usage: 0.040000s user, 0.020000s system
+distcc[1645] cpp on h067n185.iij.ad.jp completed ok
+distcc[1645] send 52398 byte file /tmp/distcc_000001f5/cppout_0000001645.i with token DOTI
+distcc[1645] send DOTI0000ccae
+distcc[1645] 52398 bytes sent in 0.001s, rate 35314kB/s
+distcc[1645] client finished sending request to server
+distcc[1645] release lock
+distcc[1634] got DONE00000001
+distcc[1634] got response header
+distcc[1634] got STAT00000000
+distcc[1634] got SERR00000000
+distcc[1634] got SOUT00000000
+distcc[1634] got DOTO00002ac4
+distcc[1634] received 10948 bytes to file tftpd.o
+distcc[1634] 10948 bytes received in 0.002s, rate 5413kB/s
+distcc[1634] release lock
+distcc[1634] compile on Argento.local. completed ok
+distcc[1634] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.30000 user 0.30000 sys
+distcc[1634] deleted 1 temporary files
+distcc[1656] safeguard level=0
+distcc[1656] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1656] found input file "task.c"
+distcc[1656] no visible output file, going to add "-o task.o" at end
+distcc[1656] compile from task.c to task.o
+distcc[1656] client got connection to port 3633 on fd4
+distcc[1656] got ZCLL00000041
+distcc[1656] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1656] found tcp token "pbg4al.local.:3632"
+distcc[1656] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1656] found tcp token "Argento.local.:3632"
+distcc[1656] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1656] /tmp/distcc_000001f5/lock_cpu_tcp_sue-pbg4titan.local._3632_0 is busy
+distcc[1656] got cpu lock on Argento.local. slot 0
+distcc[1656] got xmit lock on Argento.local. slot 0
+distcc[1656] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1656] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1656] child started as pid1658
+distcc[1656] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo -o task.o
+distcc[1656] result: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1656] exec on Argento.local.: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1658] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1656] client got connection to Argento.local. port 3632 on fd0
+distcc[1656] send DIST00000001
+distcc[1656] send ARGC00000009
+distcc[1656] send ARGV00000002
+distcc[1656] send ARGV00000002
+distcc[1656] send ARGV00000003
+distcc[1656] send ARGV00000005
+distcc[1656] send ARGV00000007
+distcc[1656] send ARGV00000002
+distcc[1656] send ARGV00000006
+distcc[1656] send ARGV00000002
+distcc[1656] send ARGV00000006
+distcc[1656] child 1658 terminated with status 0
+distcc[1656] cpp resource usage: 0.030000s user, 0.030000s system
+distcc[1656] cpp on h067n185.iij.ad.jp completed ok
+distcc[1656] send 53209 byte file /tmp/distcc_000001f5/cppout_0000001656.i with token DOTI
+distcc[1656] send DOTI0000cfd9
+distcc[1656] 53209 bytes sent in 0.002s, rate 33097kB/s
+distcc[1656] client finished sending request to server
+distcc[1656] release lock
+distcc[1645] got DONE00000001
+distcc[1645] got response header
+distcc[1645] got STAT00000000
+distcc[1645] got SERR00000000
+distcc[1645] got SOUT00000000
+distcc[1645] got DOTO00006158
+distcc[1645] received 24920 bytes to file proto_tftp.o
+distcc[1645] 24920 bytes received in 0.001s, rate 34965kB/s
+distcc[1645] release lock
+distcc[1645] compile on sue-pbg4titan.local. completed ok
+distcc[1645] exit: code 0; self: 0.0000 user 0.20000 sys; children: 0.40000 user 0.20000 sys
+distcc[1645] deleted 1 temporary files
+distcc[1665] safeguard level=0
+distcc[1665] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1665] found input file "timer.c"
+distcc[1665] no visible output file, going to add "-o timer.o" at end
+distcc[1665] compile from timer.c to timer.o
+distcc[1665] client got connection to port 3633 on fd4
+distcc[1665] got ZCLL00000041
+distcc[1665] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1665] found tcp token "pbg4al.local.:3632"
+distcc[1665] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1665] found tcp token "Argento.local.:3632"
+distcc[1665] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1665] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1665] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1665] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1665] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1665] child started as pid1667
+distcc[1665] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo -o timer.o
+distcc[1665] result: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1665] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1667] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1665] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1665] send DIST00000001
+distcc[1665] send ARGC00000009
+distcc[1665] send ARGV00000002
+distcc[1665] send ARGV00000002
+distcc[1665] send ARGV00000003
+distcc[1665] send ARGV00000005
+distcc[1665] send ARGV00000007
+distcc[1665] send ARGV00000002
+distcc[1665] send ARGV00000007
+distcc[1665] send ARGV00000002
+distcc[1665] send ARGV00000007
+distcc[1665] child 1667 terminated with status 0
+distcc[1665] cpp resource usage: 0.040000s user, 0.010000s system
+distcc[1665] cpp on h067n185.iij.ad.jp completed ok
+distcc[1665] send 20485 byte file /tmp/distcc_000001f5/cppout_0000001665.i with token DOTI
+distcc[1665] send DOTI00005005
+distcc[1665] 20485 bytes sent in 0.001s, rate 33792kB/s
+distcc[1665] client finished sending request to server
+distcc[1665] release lock
+distcc[1665] got DONE00000001
+distcc[1665] got response header
+distcc[1665] got STAT00000000
+distcc[1665] got SERR00000000
+distcc[1665] got SOUT00000000
+distcc[1665] got DOTO0000103c
+distcc[1665] received 4156 bytes to file timer.o
+distcc[1665] 4156 bytes received in 0.001s, rate 7461kB/s
+distcc[1665] release lock
+distcc[1665] compile on sue-pbg4titan.local. completed ok
+distcc[1665] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.40000 user 0.10000 sys
+distcc[1665] deleted 1 temporary files
+distcc[1656] got DONE00000001
+distcc[1656] got response header
+distcc[1656] got STAT00000000
+distcc[1656] got SERR00000000
+distcc[1656] got SOUT00000000
+distcc[1656] got DOTO00007844
+distcc[1656] received 30788 bytes to file task.o
+distcc[1656] 30788 bytes received in 0.014s, rate 2171kB/s
+distcc[1656] release lock
+distcc[1656] compile on Argento.local. completed ok
+distcc[1656] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.30000 sys
+distcc[1656] deleted 1 temporary files
+distcc[1678] safeguard level=0
+distcc[1678] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1678] found input file "util.c"
+distcc[1678] no visible output file, going to add "-o util.o" at end
+distcc[1678] compile from util.c to util.o
+distcc[1678] client got connection to port 3633 on fd4
+distcc[1678] got ZCLL00000041
+distcc[1678] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1678] found tcp token "pbg4al.local.:3632"
+distcc[1678] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1678] found tcp token "Argento.local.:3632"
+distcc[1678] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1678] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1678] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1678] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1678] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1678] child started as pid1680
+distcc[1678] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo -o util.o
+distcc[1678] result: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[1678] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[1680] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1678] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1678] send DIST00000001
+distcc[1678] send ARGC00000009
+distcc[1678] send ARGV00000002
+distcc[1678] send ARGV00000002
+distcc[1678] send ARGV00000003
+distcc[1678] send ARGV00000005
+distcc[1678] send ARGV00000007
+distcc[1678] send ARGV00000002
+distcc[1678] send ARGV00000006
+distcc[1678] send ARGV00000002
+distcc[1678] send ARGV00000006
+distcc[1678] child 1680 terminated with status 0
+distcc[1678] cpp resource usage: 0.020000s user, 0.040000s system
+distcc[1678] cpp on h067n185.iij.ad.jp completed ok
+distcc[1678] send 40144 byte file /tmp/distcc_000001f5/cppout_0000001678.i with token DOTI
+distcc[1678] send DOTI00009cd0
+distcc[1678] 40144 bytes sent in 0.030s, rate 1326kB/s
+distcc[1678] client finished sending request to server
+distcc[1678] release lock
+distcc[1625] got DONE00000001
+distcc[1625] got response header
+distcc[1625] got STAT00000000
+distcc[1625] got SERR00000000
+distcc[1625] got SOUT00000000
+distcc[1625] got DOTO00003e08
+distcc[1625] received 15880 bytes to file proto_udp.o
+distcc[1625] 15880 bytes received in 0.003s, rate 5275kB/s
+distcc[1625] release lock
+distcc[1625] compile on pbg4al.local. completed ok
+distcc[1625] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.30000 sys
+distcc[1625] deleted 1 temporary files
+distcc[1678] got DONE00000001
+distcc[1678] got response header
+distcc[1678] got STAT00000000
+distcc[1678] got SERR00000000
+distcc[1678] got SOUT00000000
+distcc[1678] got DOTO000032ec
+distcc[1678] received 13036 bytes to file util.o
+distcc[1678] 13036 bytes received in 0.001s, rate 20500kB/s
+distcc[1678] release lock
+distcc[1678] compile on sue-pbg4titan.local. completed ok
+distcc[1678] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.20000 user 0.40000 sys
+distcc[1678] deleted 1 temporary files
+distcc[1689] safeguard level=0
+distcc[1689] scanning arguments: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[1689] found object/output file "sue.tftpd"
+distcc[1689] found object/output file "tftpd.o"
+distcc[1689] called for link?  i give up
+distcc[1689] got cpu lock on localhost slot 0
+distcc[1689] exec on localhost: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[1689] forking to execute: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[1689] child started as pid1690
+distcc[1690] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1689] child 1690 terminated with status 0
+distcc[1689] cc resource usage: 0.040000s user, 0.020000s system
+distcc[1689] compile on h067n185.iij.ad.jp completed ok
+distcc[1689] exit: code 0; self: 0.10000 user 0.0000 sys; children: 0.40000 user 0.20000 sys
+distcc[1689] deleted 0 temporary files
+distcc[1702] safeguard level=0
+distcc[1702] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1702] found input file "tftpd.c"
+distcc[1702] no visible output file, going to add "-o tftpd.o" at end
+distcc[1702] compile from tftpd.c to tftpd.o
+distcc[1702] client got connection to port 3633 on fd5
+distcc[1702] got ZCLL00000041
+distcc[1702] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1702] found tcp token "pbg4al.local.:3632"
+distcc[1702] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1702] found tcp token "Argento.local.:3632"
+distcc[1702] got cpu lock on pbg4al.local. slot 0
+distcc[1702] got xmit lock on pbg4al.local. slot 0
+distcc[1702] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1702] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1702] child started as pid1704
+distcc[1702] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo -o tftpd.o
+distcc[1702] result: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1702] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1704] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1702] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1702] send DIST00000001
+distcc[1702] send ARGC00000009
+distcc[1702] send ARGV00000002
+distcc[1702] send ARGV00000002
+distcc[1702] send ARGV00000003
+distcc[1702] send ARGV00000005
+distcc[1702] send ARGV00000007
+distcc[1702] send ARGV00000002
+distcc[1702] send ARGV00000007
+distcc[1702] send ARGV00000002
+distcc[1702] send ARGV00000007
+distcc[1702] child 1704 terminated with status 0
+distcc[1702] cpp resource usage: 0.030000s user, 0.020000s system
+distcc[1702] cpp on h067n185.iij.ad.jp completed ok
+distcc[1702] send 42735 byte file /tmp/distcc_000001f5/cppout_0000001702.i with token DOTI
+distcc[1702] send DOTI0000a6ef
+distcc[1702] 42735 bytes sent in 0.001s, rate 45962kB/s
+distcc[1702] client finished sending request to server
+distcc[1702] release lock
+distcc[1702] got DONE00000001
+distcc[1702] got response header
+distcc[1702] got STAT00000000
+distcc[1702] got SERR00000000
+distcc[1702] got SOUT00000000
+distcc[1702] got DOTO00002ac4
+distcc[1702] received 10948 bytes to file tftpd.o
+distcc[1702] 10948 bytes received in 0.002s, rate 5150kB/s
+distcc[1702] release lock
+distcc[1702] compile on pbg4al.local. completed ok
+distcc[1702] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.30000 user 0.20000 sys
+distcc[1702] deleted 1 temporary files
+distcc[1715] safeguard level=0
+distcc[1715] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1715] found input file "pkt_buff.c"
+distcc[1715] no visible output file, going to add "-o pkt_buff.o" at end
+distcc[1715] compile from pkt_buff.c to pkt_buff.o
+distcc[1715] client got connection to port 3633 on fd5
+distcc[1715] got ZCLL00000041
+distcc[1715] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1715] found tcp token "pbg4al.local.:3632"
+distcc[1715] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1715] found tcp token "Argento.local.:3632"
+distcc[1715] got cpu lock on pbg4al.local. slot 0
+distcc[1715] got xmit lock on pbg4al.local. slot 0
+distcc[1715] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1715] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1715] child started as pid1717
+distcc[1715] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo -o pkt_buff.o
+distcc[1715] result: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1715] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1717] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1715] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1715] send DIST00000001
+distcc[1715] send ARGC00000009
+distcc[1715] send ARGV00000002
+distcc[1715] send ARGV00000002
+distcc[1715] send ARGV00000003
+distcc[1715] send ARGV00000005
+distcc[1715] send ARGV00000007
+distcc[1715] send ARGV00000002
+distcc[1715] send ARGV0000000a
+distcc[1715] send ARGV00000002
+distcc[1715] send ARGV0000000a
+distcc[1715] child 1717 terminated with status 0
+distcc[1715] cpp resource usage: 0.020000s user, 0.020000s system
+distcc[1715] cpp on h067n185.iij.ad.jp completed ok
+distcc[1715] send 29853 byte file /tmp/distcc_000001f5/cppout_0000001715.i with token DOTI
+distcc[1715] send DOTI0000749d
+distcc[1715] 29853 bytes sent in 0.001s, rate 37233kB/s
+distcc[1715] client finished sending request to server
+distcc[1715] release lock
+distcc[1715] got DONE00000001
+distcc[1715] got response header
+distcc[1715] got STAT00000000
+distcc[1715] got SERR00000000
+distcc[1715] got SOUT00000000
+distcc[1715] got DOTO00001a0c
+distcc[1715] received 6668 bytes to file pkt_buff.o
+distcc[1715] 6668 bytes received in 0.001s, rate 4356kB/s
+distcc[1715] release lock
+distcc[1715] compile on pbg4al.local. completed ok
+distcc[1715] exit: code 0; self: 0.0000 user 0.20000 sys; children: 0.20000 user 0.20000 sys
+distcc[1715] deleted 1 temporary files
+distcc[1723] safeguard level=0
+distcc[1723] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1723] found input file "proto_udp.c"
+distcc[1723] no visible output file, going to add "-o proto_udp.o" at end
+distcc[1723] compile from proto_udp.c to proto_udp.o
+distcc[1723] client got connection to port 3633 on fd5
+distcc[1723] got ZCLL00000041
+distcc[1723] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1723] found tcp token "pbg4al.local.:3632"
+distcc[1723] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1723] found tcp token "Argento.local.:3632"
+distcc[1723] got cpu lock on pbg4al.local. slot 0
+distcc[1723] got xmit lock on pbg4al.local. slot 0
+distcc[1723] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1723] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1723] child started as pid1725
+distcc[1723] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo -o proto_udp.o
+distcc[1723] result: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1723] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1725] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1723] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1723] send DIST00000001
+distcc[1723] send ARGC00000009
+distcc[1723] send ARGV00000002
+distcc[1723] send ARGV00000002
+distcc[1723] send ARGV00000003
+distcc[1723] send ARGV00000005
+distcc[1723] send ARGV00000007
+distcc[1723] send ARGV00000002
+distcc[1723] send ARGV0000000b
+distcc[1723] send ARGV00000002
+distcc[1723] send ARGV0000000b
+distcc[1723] child 1725 terminated with status 0
+distcc[1723] cpp resource usage: 0.030000s user, 0.020000s system
+distcc[1723] cpp on h067n185.iij.ad.jp completed ok
+distcc[1723] send 46604 byte file /tmp/distcc_000001f5/cppout_0000001723.i with token DOTI
+distcc[1723] send DOTI0000b60c
+distcc[1723] 46604 bytes sent in 0.001s, rate 33762kB/s
+distcc[1723] client finished sending request to server
+distcc[1723] release lock
+distcc[1723] got DONE00000001
+distcc[1723] got response header
+distcc[1723] got STAT00000000
+distcc[1723] got SERR00000000
+distcc[1723] got SOUT00000000
+distcc[1723] got DOTO00003e08
+distcc[1723] received 15880 bytes to file proto_udp.o
+distcc[1723] 15880 bytes received in 0.003s, rate 6025kB/s
+distcc[1723] release lock
+distcc[1723] compile on pbg4al.local. completed ok
+distcc[1723] exit: code 0; self: 0.0000 user 0.30000 sys; children: 0.30000 user 0.20000 sys
+distcc[1723] deleted 1 temporary files
+distcc[1731] safeguard level=0
+distcc[1731] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1731] found input file "proto_tftp.c"
+distcc[1731] no visible output file, going to add "-o proto_tftp.o" at end
+distcc[1731] compile from proto_tftp.c to proto_tftp.o
+distcc[1731] client got connection to port 3633 on fd5
+distcc[1731] got ZCLL00000041
+distcc[1731] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1731] found tcp token "pbg4al.local.:3632"
+distcc[1731] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1731] found tcp token "Argento.local.:3632"
+distcc[1731] got cpu lock on pbg4al.local. slot 0
+distcc[1731] got xmit lock on pbg4al.local. slot 0
+distcc[1731] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1731] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1731] child started as pid1733
+distcc[1731] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo -o proto_tftp.o
+distcc[1731] result: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1731] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1733] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1731] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1731] send DIST00000001
+distcc[1731] send ARGC00000009
+distcc[1731] send ARGV00000002
+distcc[1731] send ARGV00000002
+distcc[1731] send ARGV00000003
+distcc[1731] send ARGV00000005
+distcc[1731] send ARGV00000007
+distcc[1731] send ARGV00000002
+distcc[1731] send ARGV0000000c
+distcc[1731] send ARGV00000002
+distcc[1731] send ARGV0000000c
+distcc[1731] child 1733 terminated with status 0
+distcc[1731] cpp resource usage: 0.020000s user, 0.010000s system
+distcc[1731] cpp on h067n185.iij.ad.jp completed ok
+distcc[1731] send 52398 byte file /tmp/distcc_000001f5/cppout_0000001731.i with token DOTI
+distcc[1731] send DOTI0000ccae
+distcc[1731] 52398 bytes sent in 0.001s, rate 43549kB/s
+distcc[1731] client finished sending request to server
+distcc[1731] release lock
+distcc[1731] got DONE00000001
+distcc[1731] got response header
+distcc[1731] got STAT00000000
+distcc[1731] got SERR00000000
+distcc[1731] got SOUT00000000
+distcc[1731] got DOTO00006158
+distcc[1731] received 24920 bytes to file proto_tftp.o
+distcc[1731] 24920 bytes received in 0.004s, rate 6362kB/s
+distcc[1731] release lock
+distcc[1731] compile on pbg4al.local. completed ok
+distcc[1731] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.20000 user 0.10000 sys
+distcc[1731] deleted 1 temporary files
+distcc[1739] safeguard level=0
+distcc[1739] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1739] found input file "task.c"
+distcc[1739] no visible output file, going to add "-o task.o" at end
+distcc[1739] compile from task.c to task.o
+distcc[1739] client got connection to port 3633 on fd5
+distcc[1739] got ZCLL00000041
+distcc[1739] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1739] found tcp token "pbg4al.local.:3632"
+distcc[1739] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1739] found tcp token "Argento.local.:3632"
+distcc[1739] got cpu lock on pbg4al.local. slot 0
+distcc[1739] got xmit lock on pbg4al.local. slot 0
+distcc[1739] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1739] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1739] child started as pid1741
+distcc[1739] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo -o task.o
+distcc[1739] result: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1739] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1741] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1739] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1739] send DIST00000001
+distcc[1739] send ARGC00000009
+distcc[1739] send ARGV00000002
+distcc[1739] send ARGV00000002
+distcc[1739] send ARGV00000003
+distcc[1739] send ARGV00000005
+distcc[1739] send ARGV00000007
+distcc[1739] send ARGV00000002
+distcc[1739] send ARGV00000006
+distcc[1739] send ARGV00000002
+distcc[1739] send ARGV00000006
+distcc[1739] child 1741 terminated with status 0
+distcc[1739] cpp resource usage: 0.050000s user, 0.000000s system
+distcc[1739] cpp on h067n185.iij.ad.jp completed ok
+distcc[1739] send 53209 byte file /tmp/distcc_000001f5/cppout_0000001739.i with token DOTI
+distcc[1739] send DOTI0000cfd9
+distcc[1739] 53209 bytes sent in 0.002s, rate 27772kB/s
+distcc[1739] client finished sending request to server
+distcc[1739] release lock
+distcc[1739] got DONE00000001
+distcc[1739] got response header
+distcc[1739] got STAT00000000
+distcc[1739] got SERR00000000
+distcc[1739] got SOUT00000000
+distcc[1739] got DOTO00007844
+distcc[1739] received 30788 bytes to file task.o
+distcc[1739] 30788 bytes received in 0.004s, rate 6936kB/s
+distcc[1739] release lock
+distcc[1739] compile on pbg4al.local. completed ok
+distcc[1739] exit: code 0; self: 0.10000 user 0.20000 sys; children: 0.50000 user 0.0000 sys
+distcc[1739] deleted 1 temporary files
+distcc[1747] safeguard level=0
+distcc[1747] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1747] found input file "timer.c"
+distcc[1747] no visible output file, going to add "-o timer.o" at end
+distcc[1747] compile from timer.c to timer.o
+distcc[1747] client got connection to port 3633 on fd5
+distcc[1747] got ZCLL00000041
+distcc[1747] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1747] found tcp token "pbg4al.local.:3632"
+distcc[1747] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1747] found tcp token "Argento.local.:3632"
+distcc[1747] got cpu lock on pbg4al.local. slot 0
+distcc[1747] got xmit lock on pbg4al.local. slot 0
+distcc[1747] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1747] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1747] child started as pid1749
+distcc[1747] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo -o timer.o
+distcc[1747] result: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1747] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1749] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1747] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1747] send DIST00000001
+distcc[1747] send ARGC00000009
+distcc[1747] send ARGV00000002
+distcc[1747] send ARGV00000002
+distcc[1747] send ARGV00000003
+distcc[1747] send ARGV00000005
+distcc[1747] send ARGV00000007
+distcc[1747] send ARGV00000002
+distcc[1747] send ARGV00000007
+distcc[1747] send ARGV00000002
+distcc[1747] send ARGV00000007
+distcc[1747] child 1749 terminated with status 0
+distcc[1747] cpp resource usage: 0.030000s user, 0.020000s system
+distcc[1747] cpp on h067n185.iij.ad.jp completed ok
+distcc[1747] send 20485 byte file /tmp/distcc_000001f5/cppout_0000001747.i with token DOTI
+distcc[1747] send DOTI00005005
+distcc[1747] 20485 bytes sent in 0.001s, rate 38769kB/s
+distcc[1747] client finished sending request to server
+distcc[1747] release lock
+distcc[1747] got DONE00000001
+distcc[1747] got response header
+distcc[1747] got STAT00000000
+distcc[1747] got SERR00000000
+distcc[1747] got SOUT00000000
+distcc[1747] got DOTO0000103c
+distcc[1747] received 4156 bytes to file timer.o
+distcc[1747] 4156 bytes received in 0.002s, rate 2360kB/s
+distcc[1747] release lock
+distcc[1747] compile on pbg4al.local. completed ok
+distcc[1747] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.20000 sys
+distcc[1747] deleted 1 temporary files
+distcc[1755] safeguard level=0
+distcc[1755] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1755] found input file "util.c"
+distcc[1755] no visible output file, going to add "-o util.o" at end
+distcc[1755] compile from util.c to util.o
+distcc[1755] client got connection to port 3633 on fd5
+distcc[1755] got ZCLL00000041
+distcc[1755] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1755] found tcp token "pbg4al.local.:3632"
+distcc[1755] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1755] found tcp token "Argento.local.:3632"
+distcc[1755] got cpu lock on pbg4al.local. slot 0
+distcc[1755] got xmit lock on pbg4al.local. slot 0
+distcc[1755] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1755] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1755] child started as pid1757
+distcc[1755] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo -o util.o
+distcc[1755] result: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[1755] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[1757] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1755] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1755] send DIST00000001
+distcc[1755] send ARGC00000009
+distcc[1755] send ARGV00000002
+distcc[1755] send ARGV00000002
+distcc[1755] send ARGV00000003
+distcc[1755] send ARGV00000005
+distcc[1755] send ARGV00000007
+distcc[1755] send ARGV00000002
+distcc[1755] send ARGV00000006
+distcc[1755] send ARGV00000002
+distcc[1755] send ARGV00000006
+distcc[1755] child 1757 terminated with status 0
+distcc[1755] cpp resource usage: 0.060000s user, 0.020000s system
+distcc[1755] cpp on h067n185.iij.ad.jp completed ok
+distcc[1755] send 40144 byte file /tmp/distcc_000001f5/cppout_0000001755.i with token DOTI
+distcc[1755] send DOTI00009cd0
+distcc[1755] 40144 bytes sent in 0.001s, rate 35933kB/s
+distcc[1755] client finished sending request to server
+distcc[1755] release lock
+distcc[1755] got DONE00000001
+distcc[1755] got response header
+distcc[1755] got STAT00000000
+distcc[1755] got SERR00000000
+distcc[1755] got SOUT00000000
+distcc[1755] got DOTO000032ec
+distcc[1755] received 13036 bytes to file util.o
+distcc[1755] 13036 bytes received in 0.002s, rate 5621kB/s
+distcc[1755] release lock
+distcc[1755] compile on pbg4al.local. completed ok
+distcc[1755] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.60000 user 0.20000 sys
+distcc[1755] deleted 1 temporary files
+distcc[1761] safeguard level=0
+distcc[1761] scanning arguments: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[1761] found object/output file "sue.tftpd"
+distcc[1761] found object/output file "tftpd.o"
+distcc[1761] called for link?  i give up
+distcc[1761] got cpu lock on localhost slot 0
+distcc[1761] exec on localhost: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[1761] forking to execute: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[1761] child started as pid1762
+distcc[1762] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1761] child 1762 terminated with status 0
+distcc[1761] cc resource usage: 0.020000s user, 0.040000s system
+distcc[1761] compile on h067n185.iij.ad.jp completed ok
+distcc[1761] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.20000 user 0.40000 sys
+distcc[1761] deleted 0 temporary files
+distcc[1829] safeguard level=0
+distcc[1829] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1829] found input file "tftpd.c"
+distcc[1829] no visible output file, going to add "-o tftpd.o" at end
+distcc[1829] compile from tftpd.c to tftpd.o
+distcc[1829] client got connection to port 3633 on fd4
+distcc[1829] got ZCLL00000041
+distcc[1829] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1829] found tcp token "pbg4al.local.:3632"
+distcc[1829] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1829] found tcp token "Argento.local.:3632"
+distcc[1829] got cpu lock on pbg4al.local. slot 0
+distcc[1829] got xmit lock on pbg4al.local. slot 0
+distcc[1829] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1829] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1829] child started as pid1831
+distcc[1829] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo -o tftpd.o
+distcc[1829] result: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1829] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1831] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1829] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1829] send DIST00000001
+distcc[1829] send ARGC00000009
+distcc[1829] send ARGV00000002
+distcc[1829] send ARGV00000002
+distcc[1829] send ARGV00000003
+distcc[1829] send ARGV00000005
+distcc[1829] send ARGV00000007
+distcc[1829] send ARGV00000002
+distcc[1829] send ARGV00000007
+distcc[1829] send ARGV00000002
+distcc[1829] send ARGV00000007
+distcc[1836] safeguard level=0
+distcc[1836] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1836] found input file "pkt_buff.c"
+distcc[1836] no visible output file, going to add "-o pkt_buff.o" at end
+distcc[1836] compile from pkt_buff.c to pkt_buff.o
+distcc[1836] client got connection to port 3633 on fd4
+distcc[1836] got ZCLL00000041
+distcc[1836] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1836] found tcp token "pbg4al.local.:3632"
+distcc[1836] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1836] found tcp token "Argento.local.:3632"
+distcc[1836] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1836] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1836] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1836] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1836] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1836] child started as pid1838
+distcc[1836] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo -o pkt_buff.o
+distcc[1836] result: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1836] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1838] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1836] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1836] send DIST00000001
+distcc[1836] send ARGC00000009
+distcc[1836] send ARGV00000002
+distcc[1836] send ARGV00000002
+distcc[1836] send ARGV00000003
+distcc[1836] send ARGV00000005
+distcc[1836] send ARGV00000007
+distcc[1836] send ARGV00000002
+distcc[1836] send ARGV0000000a
+distcc[1836] send ARGV00000002
+distcc[1836] send ARGV0000000a
+distcc[1836] child 1838 terminated with status 0
+distcc[1836] cpp resource usage: 0.010000s user, 0.040000s system
+distcc[1836] cpp on h067n185.iij.ad.jp completed ok
+distcc[1836] send 29853 byte file /tmp/distcc_000001f5/cppout_0000001836.i with token DOTI
+distcc[1836] send DOTI0000749d
+distcc[1836] 29853 bytes sent in 0.002s, rate 15507kB/s
+distcc[1836] client finished sending request to server
+distcc[1836] release lock
+distcc[1829] child 1831 terminated with status 0
+distcc[1829] cpp resource usage: 0.040000s user, 0.010000s system
+distcc[1829] cpp on h067n185.iij.ad.jp completed ok
+distcc[1829] send 42735 byte file /tmp/distcc_000001f5/cppout_0000001829.i with token DOTI
+distcc[1829] send DOTI0000a6ef
+distcc[1829] 42735 bytes sent in 0.001s, rate 45511kB/s
+distcc[1829] client finished sending request to server
+distcc[1829] release lock
+distcc[1836] got DONE00000001
+distcc[1836] got response header
+distcc[1836] got STAT00000000
+distcc[1836] got SERR00000000
+distcc[1836] got SOUT00000000
+distcc[1836] got DOTO00001a0c
+distcc[1836] received 6668 bytes to file pkt_buff.o
+distcc[1836] 6668 bytes received in 0.001s, rate 11712kB/s
+distcc[1836] release lock
+distcc[1836] compile on sue-pbg4titan.local. completed ok
+distcc[1836] exit: code 0; self: 0.0000 user 0.30000 sys; children: 0.10000 user 0.40000 sys
+distcc[1836] deleted 1 temporary files
+distcc[1849] safeguard level=0
+distcc[1849] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1849] found input file "proto_udp.c"
+distcc[1849] no visible output file, going to add "-o proto_udp.o" at end
+distcc[1849] compile from proto_udp.c to proto_udp.o
+distcc[1849] client got connection to port 3633 on fd4
+distcc[1849] got ZCLL00000041
+distcc[1849] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1849] found tcp token "pbg4al.local.:3632"
+distcc[1849] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1849] found tcp token "Argento.local.:3632"
+distcc[1849] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1849] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1849] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1849] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1849] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1849] child started as pid1851
+distcc[1849] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo -o proto_udp.o
+distcc[1849] result: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1849] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1851] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1849] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1849] send DIST00000001
+distcc[1849] send ARGC00000009
+distcc[1849] send ARGV00000002
+distcc[1849] send ARGV00000002
+distcc[1849] send ARGV00000003
+distcc[1849] send ARGV00000005
+distcc[1849] send ARGV00000007
+distcc[1849] send ARGV00000002
+distcc[1849] send ARGV0000000b
+distcc[1849] send ARGV00000002
+distcc[1849] send ARGV0000000b
+distcc[1849] child 1851 terminated with status 0
+distcc[1849] cpp resource usage: 0.050000s user, 0.000000s system
+distcc[1849] cpp on h067n185.iij.ad.jp completed ok
+distcc[1849] send 46604 byte file /tmp/distcc_000001f5/cppout_0000001849.i with token DOTI
+distcc[1849] send DOTI0000b60c
+distcc[1849] 46604 bytes sent in 0.001s, rate 42101kB/s
+distcc[1849] client finished sending request to server
+distcc[1849] release lock
+distcc[1829] got DONE00000001
+distcc[1829] got response header
+distcc[1829] got STAT00000000
+distcc[1829] got SERR00000000
+distcc[1829] got SOUT00000000
+distcc[1829] got DOTO00002ac4
+distcc[1829] received 10948 bytes to file tftpd.o
+distcc[1829] 10948 bytes received in 0.002s, rate 5231kB/s
+distcc[1829] release lock
+distcc[1829] compile on pbg4al.local. completed ok
+distcc[1829] exit: code 0; self: 0.0000 user 0.20000 sys; children: 0.40000 user 0.10000 sys
+distcc[1829] deleted 1 temporary files
+distcc[1863] safeguard level=0
+distcc[1863] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1863] found input file "proto_tftp.c"
+distcc[1863] no visible output file, going to add "-o proto_tftp.o" at end
+distcc[1863] compile from proto_tftp.c to proto_tftp.o
+distcc[1863] client got connection to port 3633 on fd4
+distcc[1863] got ZCLL00000041
+distcc[1863] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1863] found tcp token "pbg4al.local.:3632"
+distcc[1863] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1863] found tcp token "Argento.local.:3632"
+distcc[1863] got cpu lock on pbg4al.local. slot 0
+distcc[1863] got xmit lock on pbg4al.local. slot 0
+distcc[1863] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1863] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1863] child started as pid1865
+distcc[1863] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo -o proto_tftp.o
+distcc[1863] result: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1863] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1865] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1863] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1863] send DIST00000001
+distcc[1863] send ARGC00000009
+distcc[1863] send ARGV00000002
+distcc[1863] send ARGV00000002
+distcc[1863] send ARGV00000003
+distcc[1863] send ARGV00000005
+distcc[1863] send ARGV00000007
+distcc[1863] send ARGV00000002
+distcc[1863] send ARGV0000000c
+distcc[1863] send ARGV00000002
+distcc[1863] send ARGV0000000c
+distcc[1863] child 1865 terminated with status 0
+distcc[1863] cpp resource usage: 0.010000s user, 0.040000s system
+distcc[1863] cpp on h067n185.iij.ad.jp completed ok
+distcc[1863] send 52398 byte file /tmp/distcc_000001f5/cppout_0000001863.i with token DOTI
+distcc[1863] send DOTI0000ccae
+distcc[1863] 52398 bytes sent in 0.001s, rate 41002kB/s
+distcc[1863] client finished sending request to server
+distcc[1863] release lock
+distcc[1849] got DONE00000001
+distcc[1849] got response header
+distcc[1849] got STAT00000000
+distcc[1849] got SERR00000000
+distcc[1849] got SOUT00000000
+distcc[1849] got DOTO00003e08
+distcc[1849] received 15880 bytes to file proto_udp.o
+distcc[1849] 15880 bytes received in 0.001s, rate 25134kB/s
+distcc[1849] release lock
+distcc[1849] compile on sue-pbg4titan.local. completed ok
+distcc[1849] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.50000 user 0.0000 sys
+distcc[1849] deleted 1 temporary files
+distcc[1873] safeguard level=0
+distcc[1873] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1873] found input file "task.c"
+distcc[1873] no visible output file, going to add "-o task.o" at end
+distcc[1873] compile from task.c to task.o
+distcc[1873] client got connection to port 3633 on fd4
+distcc[1873] got ZCLL00000041
+distcc[1873] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1873] found tcp token "pbg4al.local.:3632"
+distcc[1873] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1873] found tcp token "Argento.local.:3632"
+distcc[1873] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1873] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1873] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1873] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1873] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1873] child started as pid1875
+distcc[1873] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo -o task.o
+distcc[1873] result: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1873] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1875] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1873] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1873] send DIST00000001
+distcc[1873] send ARGC00000009
+distcc[1873] send ARGV00000002
+distcc[1873] send ARGV00000002
+distcc[1873] send ARGV00000003
+distcc[1873] send ARGV00000005
+distcc[1873] send ARGV00000007
+distcc[1873] send ARGV00000002
+distcc[1873] send ARGV00000006
+distcc[1873] send ARGV00000002
+distcc[1873] send ARGV00000006
+distcc[1873] child 1875 terminated with status 0
+distcc[1873] cpp resource usage: 0.010000s user, 0.040000s system
+distcc[1873] cpp on h067n185.iij.ad.jp completed ok
+distcc[1873] send 53209 byte file /tmp/distcc_000001f5/cppout_0000001873.i with token DOTI
+distcc[1873] send DOTI0000cfd9
+distcc[1873] 53209 bytes sent in 0.001s, rate 34897kB/s
+distcc[1873] client finished sending request to server
+distcc[1873] release lock
+distcc[1863] got DONE00000001
+distcc[1863] got response header
+distcc[1863] got STAT00000000
+distcc[1863] got SERR00000000
+distcc[1863] got SOUT00000000
+distcc[1863] got DOTO00006158
+distcc[1863] received 24920 bytes to file proto_tftp.o
+distcc[1863] 24920 bytes received in 0.004s, rate 6535kB/s
+distcc[1863] release lock
+distcc[1863] compile on pbg4al.local. completed ok
+distcc[1863] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.10000 user 0.40000 sys
+distcc[1863] deleted 1 temporary files
+distcc[1887] safeguard level=0
+distcc[1887] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1887] found input file "timer.c"
+distcc[1887] no visible output file, going to add "-o timer.o" at end
+distcc[1887] compile from timer.c to timer.o
+distcc[1887] client got connection to port 3633 on fd4
+distcc[1887] got ZCLL00000041
+distcc[1887] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1887] found tcp token "pbg4al.local.:3632"
+distcc[1887] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1887] found tcp token "Argento.local.:3632"
+distcc[1887] got cpu lock on pbg4al.local. slot 0
+distcc[1887] got xmit lock on pbg4al.local. slot 0
+distcc[1887] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1887] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1887] child started as pid1889
+distcc[1887] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo -o timer.o
+distcc[1887] result: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1887] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1889] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1887] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1887] send DIST00000001
+distcc[1887] send ARGC00000009
+distcc[1887] send ARGV00000002
+distcc[1887] send ARGV00000002
+distcc[1887] send ARGV00000003
+distcc[1887] send ARGV00000005
+distcc[1887] send ARGV00000007
+distcc[1887] send ARGV00000002
+distcc[1887] send ARGV00000007
+distcc[1887] send ARGV00000002
+distcc[1887] send ARGV00000007
+distcc[1887] child 1889 terminated with status 0
+distcc[1887] cpp resource usage: 0.040000s user, 0.010000s system
+distcc[1887] cpp on h067n185.iij.ad.jp completed ok
+distcc[1887] send 20485 byte file /tmp/distcc_000001f5/cppout_0000001887.i with token DOTI
+distcc[1887] send DOTI00005005
+distcc[1887] 20485 bytes sent in 0.000s, rate 40251kB/s
+distcc[1887] client finished sending request to server
+distcc[1887] release lock
+distcc[1935] safeguard level=0
+distcc[1935] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1935] found input file "tftpd.c"
+distcc[1935] no visible output file, going to add "-o tftpd.o" at end
+distcc[1935] compile from tftpd.c to tftpd.o
+distcc[1935] client got connection to port 3633 on fd4
+distcc[1935] got ZCLL00000041
+distcc[1935] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1935] found tcp token "pbg4al.local.:3632"
+distcc[1935] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1935] found tcp token "Argento.local.:3632"
+distcc[1935] got cpu lock on pbg4al.local. slot 0
+distcc[1935] got xmit lock on pbg4al.local. slot 0
+distcc[1935] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1935] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[1935] child started as pid1937
+distcc[1935] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo -o tftpd.o
+distcc[1935] result: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1935] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[1937] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1935] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1935] send DIST00000001
+distcc[1935] send ARGC00000009
+distcc[1935] send ARGV00000002
+distcc[1935] send ARGV00000002
+distcc[1935] send ARGV00000003
+distcc[1935] send ARGV00000005
+distcc[1935] send ARGV00000007
+distcc[1935] send ARGV00000002
+distcc[1935] send ARGV00000007
+distcc[1935] send ARGV00000002
+distcc[1935] send ARGV00000007
+distcc[1939] safeguard level=0
+distcc[1939] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1939] found input file "pkt_buff.c"
+distcc[1939] no visible output file, going to add "-o pkt_buff.o" at end
+distcc[1939] compile from pkt_buff.c to pkt_buff.o
+distcc[1939] client got connection to port 3633 on fd4
+distcc[1939] got ZCLL00000041
+distcc[1939] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1939] found tcp token "pbg4al.local.:3632"
+distcc[1939] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1939] found tcp token "Argento.local.:3632"
+distcc[1939] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1939] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1939] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1939] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1939] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[1939] child started as pid1941
+distcc[1939] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo -o pkt_buff.o
+distcc[1939] result: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1939] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[1941] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1939] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1939] send DIST00000001
+distcc[1939] send ARGC00000009
+distcc[1939] send ARGV00000002
+distcc[1939] send ARGV00000002
+distcc[1939] send ARGV00000003
+distcc[1939] send ARGV00000005
+distcc[1939] send ARGV00000007
+distcc[1939] send ARGV00000002
+distcc[1939] send ARGV0000000a
+distcc[1939] send ARGV00000002
+distcc[1939] send ARGV0000000a
+distcc[1939] child 1941 terminated with status 0
+distcc[1939] cpp resource usage: 0.010000s user, 0.040000s system
+distcc[1939] cpp on h067n185.iij.ad.jp completed ok
+distcc[1939] send 29853 byte file /tmp/distcc_000001f5/cppout_0000001939.i with token DOTI
+distcc[1939] send DOTI0000749d
+distcc[1939] 29853 bytes sent in 0.001s, rate 43512kB/s
+distcc[1939] client finished sending request to server
+distcc[1939] release lock
+distcc[1935] child 1937 terminated with status 0
+distcc[1935] cpp resource usage: 0.050000s user, 0.030000s system
+distcc[1935] cpp on h067n185.iij.ad.jp completed ok
+distcc[1935] send 42735 byte file /tmp/distcc_000001f5/cppout_0000001935.i with token DOTI
+distcc[1935] send DOTI0000a6ef
+distcc[1935] 42735 bytes sent in 0.001s, rate 49040kB/s
+distcc[1935] client finished sending request to server
+distcc[1935] release lock
+distcc[1939] got DONE00000001
+distcc[1939] got response header
+distcc[1939] got STAT00000000
+distcc[1939] got SERR00000000
+distcc[1939] got SOUT00000000
+distcc[1939] got DOTO00001a0c
+distcc[1939] received 6668 bytes to file pkt_buff.o
+distcc[1939] 6668 bytes received in 0.001s, rate 11628kB/s
+distcc[1939] release lock
+distcc[1939] compile on sue-pbg4titan.local. completed ok
+distcc[1939] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.10000 user 0.40000 sys
+distcc[1939] deleted 1 temporary files
+distcc[1935] got DONE00000001
+distcc[1935] got response header
+distcc[1935] got STAT00000000
+distcc[1935] got SERR00000000
+distcc[1935] got SOUT00000000
+distcc[1935] got DOTO00002ac4
+distcc[1935] received 10948 bytes to file tftpd.o
+distcc[1935] 10948 bytes received in 0.012s, rate 894kB/s
+distcc[1935] release lock
+distcc[1935] compile on pbg4al.local. completed ok
+distcc[1935] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.50000 user 0.30000 sys
+distcc[1935] deleted 1 temporary files
+distcc[1955] safeguard level=0
+distcc[1955] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1955] found input file "proto_tftp.c"
+distcc[1955] no visible output file, going to add "-o proto_tftp.o" at end
+distcc[1955] compile from proto_tftp.c to proto_tftp.o
+distcc[1955] client got connection to port 3633 on fd4
+distcc[1955] got ZCLL00000041
+distcc[1955] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1955] found tcp token "pbg4al.local.:3632"
+distcc[1955] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1955] found tcp token "Argento.local.:3632"
+distcc[1955] got cpu lock on pbg4al.local. slot 0
+distcc[1955] got xmit lock on pbg4al.local. slot 0
+distcc[1955] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1955] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[1955] child started as pid1957
+distcc[1955] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo -o proto_tftp.o
+distcc[1955] result: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1955] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[1957] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1955] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1955] send DIST00000001
+distcc[1955] send ARGC00000009
+distcc[1955] send ARGV00000002
+distcc[1955] send ARGV00000002
+distcc[1955] send ARGV00000003
+distcc[1955] send ARGV00000005
+distcc[1955] send ARGV00000007
+distcc[1955] send ARGV00000002
+distcc[1955] send ARGV0000000c
+distcc[1955] send ARGV00000002
+distcc[1955] send ARGV0000000c
+distcc[1959] safeguard level=0
+distcc[1959] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1959] found input file "proto_udp.c"
+distcc[1959] no visible output file, going to add "-o proto_udp.o" at end
+distcc[1959] compile from proto_udp.c to proto_udp.o
+distcc[1959] client got connection to port 3633 on fd4
+distcc[1959] got ZCLL00000041
+distcc[1959] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1959] found tcp token "pbg4al.local.:3632"
+distcc[1959] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1959] found tcp token "Argento.local.:3632"
+distcc[1959] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1959] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1959] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1959] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1959] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[1959] child started as pid1961
+distcc[1959] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo -o proto_udp.o
+distcc[1959] result: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1959] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[1961] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1959] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1959] send DIST00000001
+distcc[1959] send ARGC00000009
+distcc[1959] send ARGV00000002
+distcc[1959] send ARGV00000002
+distcc[1959] send ARGV00000003
+distcc[1959] send ARGV00000005
+distcc[1959] send ARGV00000007
+distcc[1959] send ARGV00000002
+distcc[1959] send ARGV0000000b
+distcc[1959] send ARGV00000002
+distcc[1959] send ARGV0000000b
+distcc[1955] child 1957 terminated with status 0
+distcc[1955] cpp resource usage: 0.030000s user, 0.020000s system
+distcc[1955] cpp on h067n185.iij.ad.jp completed ok
+distcc[1955] send 52398 byte file /tmp/distcc_000001f5/cppout_0000001955.i with token DOTI
+distcc[1955] send DOTI0000ccae
+distcc[1955] 52398 bytes sent in 0.003s, rate 19093kB/s
+distcc[1955] client finished sending request to server
+distcc[1955] release lock
+distcc[1959] child 1961 terminated with status 0
+distcc[1959] cpp resource usage: 0.050000s user, 0.020000s system
+distcc[1959] cpp on h067n185.iij.ad.jp completed ok
+distcc[1959] send 46604 byte file /tmp/distcc_000001f5/cppout_0000001959.i with token DOTI
+distcc[1959] send DOTI0000b60c
+distcc[1959] 46604 bytes sent in 0.025s, rate 1845kB/s
+distcc[1959] client finished sending request to server
+distcc[1959] release lock
+distcc[1959] got DONE00000001
+distcc[1959] got response header
+distcc[1959] got STAT00000000
+distcc[1959] got SERR00000000
+distcc[1959] got SOUT00000000
+distcc[1959] got DOTO00003e08
+distcc[1959] received 15880 bytes to file proto_udp.o
+distcc[1959] 15880 bytes received in 0.001s, rate 24345kB/s
+distcc[1959] release lock
+distcc[1959] compile on sue-pbg4titan.local. completed ok
+distcc[1959] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.50000 user 0.20000 sys
+distcc[1959] deleted 1 temporary files
+distcc[1975] safeguard level=0
+distcc[1975] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1975] found input file "task.c"
+distcc[1975] no visible output file, going to add "-o task.o" at end
+distcc[1975] compile from task.c to task.o
+distcc[1975] client got connection to port 3633 on fd4
+distcc[1975] got ZCLL00000041
+distcc[1975] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1975] found tcp token "pbg4al.local.:3632"
+distcc[1975] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1975] found tcp token "Argento.local.:3632"
+distcc[1975] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[1975] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[1975] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[1975] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1975] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[1975] child started as pid1977
+distcc[1975] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo -o task.o
+distcc[1975] result: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1975] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[1977] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1975] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[1975] send DIST00000001
+distcc[1975] send ARGC00000009
+distcc[1975] send ARGV00000002
+distcc[1975] send ARGV00000002
+distcc[1975] send ARGV00000003
+distcc[1975] send ARGV00000005
+distcc[1975] send ARGV00000007
+distcc[1975] send ARGV00000002
+distcc[1975] send ARGV00000006
+distcc[1975] send ARGV00000002
+distcc[1975] send ARGV00000006
+distcc[1975] child 1977 terminated with status 0
+distcc[1975] cpp resource usage: 0.010000s user, 0.050000s system
+distcc[1975] cpp on h067n185.iij.ad.jp completed ok
+distcc[1975] send 53209 byte file /tmp/distcc_000001f5/cppout_0000001975.i with token DOTI
+distcc[1975] send DOTI0000cfd9
+distcc[1975] 53209 bytes sent in 0.001s, rate 40094kB/s
+distcc[1975] client finished sending request to server
+distcc[1975] release lock
+distcc[1955] got DONE00000001
+distcc[1955] got response header
+distcc[1955] got STAT00000000
+distcc[1955] got SERR00000000
+distcc[1955] got SOUT00000000
+distcc[1955] got DOTO00006158
+distcc[1955] received 24920 bytes to file proto_tftp.o
+distcc[1955] 24920 bytes received in 0.004s, rate 6577kB/s
+distcc[1955] release lock
+distcc[1955] compile on pbg4al.local. completed ok
+distcc[1955] exit: code 0; self: 0.0000 user 0.20000 sys; children: 0.30000 user 0.20000 sys
+distcc[1955] deleted 1 temporary files
+distcc[1986] safeguard level=0
+distcc[1986] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1986] found input file "timer.c"
+distcc[1986] no visible output file, going to add "-o timer.o" at end
+distcc[1986] compile from timer.c to timer.o
+distcc[1986] client got connection to port 3633 on fd4
+distcc[1986] got ZCLL00000041
+distcc[1986] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1986] found tcp token "pbg4al.local.:3632"
+distcc[1986] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1986] found tcp token "Argento.local.:3632"
+distcc[1986] got cpu lock on pbg4al.local. slot 0
+distcc[1986] got xmit lock on pbg4al.local. slot 0
+distcc[1986] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1986] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[1988] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1986] child started as pid1988
+distcc[1986] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo -o timer.o
+distcc[1986] result: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1986] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[1986] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1986] send DIST00000001
+distcc[1986] send ARGC00000009
+distcc[1986] send ARGV00000002
+distcc[1986] send ARGV00000002
+distcc[1986] send ARGV00000003
+distcc[1986] send ARGV00000005
+distcc[1986] send ARGV00000007
+distcc[1986] send ARGV00000002
+distcc[1986] send ARGV00000007
+distcc[1986] send ARGV00000002
+distcc[1986] send ARGV00000007
+distcc[1986] child 1988 terminated with status 0
+distcc[1986] cpp resource usage: 0.040000s user, 0.020000s system
+distcc[1986] cpp on h067n185.iij.ad.jp completed ok
+distcc[1986] send 20485 byte file /tmp/distcc_000001f5/cppout_0000001986.i with token DOTI
+distcc[1986] send DOTI00005005
+distcc[1986] 20485 bytes sent in 0.000s, rate 49273kB/s
+distcc[1986] client finished sending request to server
+distcc[1986] release lock
+distcc[1986] got DONE00000001
+distcc[1986] got response header
+distcc[1986] got STAT00000000
+distcc[1986] got SERR00000000
+distcc[1986] got SOUT00000000
+distcc[1986] got DOTO0000103c
+distcc[1986] received 4156 bytes to file timer.o
+distcc[1986] 4156 bytes received in 0.002s, rate 2541kB/s
+distcc[1986] release lock
+distcc[1986] compile on pbg4al.local. completed ok
+distcc[1986] exit: code 0; self: 0.10000 user 0.10000 sys; children: 0.40000 user 0.20000 sys
+distcc[1986] deleted 1 temporary files
+distcc[1994] safeguard level=0
+distcc[1994] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1994] found input file "util.c"
+distcc[1994] no visible output file, going to add "-o util.o" at end
+distcc[1994] compile from util.c to util.o
+distcc[1994] client got connection to port 3633 on fd4
+distcc[1994] got ZCLL00000041
+distcc[1994] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[1994] found tcp token "pbg4al.local.:3632"
+distcc[1994] found tcp token "sue-pbg4titan.local.:3632"
+distcc[1994] found tcp token "Argento.local.:3632"
+distcc[1994] got cpu lock on pbg4al.local. slot 0
+distcc[1994] got xmit lock on pbg4al.local. slot 0
+distcc[1994] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1994] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[1994] child started as pid1996
+distcc[1994] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo -o util.o
+distcc[1994] result: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[1994] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[1996] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[1994] client got connection to pbg4al.local. port 3632 on fd0
+distcc[1994] send DIST00000001
+distcc[1994] send ARGC00000009
+distcc[1994] send ARGV00000002
+distcc[1994] send ARGV00000002
+distcc[1994] send ARGV00000003
+distcc[1994] send ARGV00000005
+distcc[1994] send ARGV00000007
+distcc[1994] send ARGV00000002
+distcc[1994] send ARGV00000006
+distcc[1994] send ARGV00000002
+distcc[1994] send ARGV00000006
+distcc[1994] child 1996 terminated with status 0
+distcc[1994] cpp resource usage: 0.040000s user, 0.020000s system
+distcc[1994] cpp on h067n185.iij.ad.jp completed ok
+distcc[1994] send 40144 byte file /tmp/distcc_000001f5/cppout_0000001994.i with token DOTI
+distcc[1994] send DOTI00009cd0
+distcc[1994] 40144 bytes sent in 0.001s, rate 37443kB/s
+distcc[1994] client finished sending request to server
+distcc[1994] release lock
+distcc[1975] got DONE00000001
+distcc[1975] got response header
+distcc[1975] got STAT00000000
+distcc[1975] got SERR00000000
+distcc[1975] got SOUT00000000
+distcc[1975] got DOTO00007844
+distcc[1975] received 30788 bytes to file task.o
+distcc[1975] 30788 bytes received in 0.001s, rate 40796kB/s
+distcc[1975] release lock
+distcc[1975] compile on sue-pbg4titan.local. completed ok
+distcc[1975] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.10000 user 0.50000 sys
+distcc[1975] deleted 1 temporary files
+distcc[1994] got DONE00000001
+distcc[1994] got response header
+distcc[1994] got STAT00000000
+distcc[1994] got SERR00000000
+distcc[1994] got SOUT00000000
+distcc[1994] got DOTO000032ec
+distcc[1994] received 13036 bytes to file util.o
+distcc[1994] 13036 bytes received in 0.013s, rate 1003kB/s
+distcc[1994] release lock
+distcc[1994] compile on pbg4al.local. completed ok
+distcc[1994] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.40000 user 0.20000 sys
+distcc[1994] deleted 1 temporary files
+distcc[2002] safeguard level=0
+distcc[2002] scanning arguments: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[2002] found object/output file "sue.tftpd"
+distcc[2002] found object/output file "tftpd.o"
+distcc[2002] called for link?  i give up
+distcc[2002] got cpu lock on localhost slot 0
+distcc[2002] exec on localhost: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[2002] forking to execute: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[2002] child started as pid2003
+distcc[2003] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2002] child 2003 terminated with status 0
+distcc[2002] cc resource usage: 0.030000s user, 0.030000s system
+distcc[2002] compile on h067n185.iij.ad.jp completed ok
+distcc[2002] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.30000 sys
+distcc[2002] deleted 0 temporary files
+distcc[2025] safeguard level=0
+distcc[2025] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[2025] found input file "pkt_buff.c"
+distcc[2025] no visible output file, going to add "-o pkt_buff.o" at end
+distcc[2025] compile from pkt_buff.c to pkt_buff.o
+distcc[2025] client got connection to port 3633 on fd4
+distcc[2025] got ZCLL00000041
+distcc[2025] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2025] found tcp token "pbg4al.local.:3632"
+distcc[2025] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2025] found tcp token "Argento.local.:3632"
+distcc[2025] got cpu lock on pbg4al.local. slot 0
+distcc[2025] got xmit lock on pbg4al.local. slot 0
+distcc[2025] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[2025] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo
+distcc[2025] child started as pid2027
+distcc[2025] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c pkt_buff.c -MT pkt_buff.o -MD -MP -MF .deps/pkt_buff.TPo -o pkt_buff.o
+distcc[2025] result: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[2025] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c pkt_buff.c -o pkt_buff.o
+distcc[2027] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2029] safeguard level=0
+distcc[2029] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[2029] found input file "proto_udp.c"
+distcc[2029] no visible output file, going to add "-o proto_udp.o" at end
+distcc[2029] compile from proto_udp.c to proto_udp.o
+distcc[2029] client got connection to port 3633 on fd4
+distcc[2025] client got connection to pbg4al.local. port 3632 on fd0
+distcc[2025] send DIST00000001
+distcc[2025] send ARGC00000009
+distcc[2025] send ARGV00000002
+distcc[2025] send ARGV00000002
+distcc[2025] send ARGV00000003
+distcc[2025] send ARGV00000005
+distcc[2025] send ARGV00000007
+distcc[2025] send ARGV00000002
+distcc[2025] send ARGV0000000a
+distcc[2025] send ARGV00000002
+distcc[2025] send ARGV0000000a
+distcc[2029] got ZCLL00000041
+distcc[2029] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2029] found tcp token "pbg4al.local.:3632"
+distcc[2029] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2029] found tcp token "Argento.local.:3632"
+distcc[2029] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[2029] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[2029] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[2029] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[2029] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo
+distcc[2029] child started as pid2031
+distcc[2029] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_udp.c -MT proto_udp.o -MD -MP -MF .deps/proto_udp.TPo -o proto_udp.o
+distcc[2029] result: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[2029] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c proto_udp.c -o proto_udp.o
+distcc[2031] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2029] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[2029] send DIST00000001
+distcc[2029] send ARGC00000009
+distcc[2029] send ARGV00000002
+distcc[2029] send ARGV00000002
+distcc[2029] send ARGV00000003
+distcc[2029] send ARGV00000005
+distcc[2029] send ARGV00000007
+distcc[2029] send ARGV00000002
+distcc[2029] send ARGV0000000b
+distcc[2029] send ARGV00000002
+distcc[2029] send ARGV0000000b
+distcc[2034] safeguard level=0
+distcc[2034] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[2034] found input file "tftpd.c"
+distcc[2034] no visible output file, going to add "-o tftpd.o" at end
+distcc[2034] compile from tftpd.c to tftpd.o
+distcc[2034] client got connection to port 3633 on fd4
+distcc[2034] got ZCLL00000041
+distcc[2034] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2034] found tcp token "pbg4al.local.:3632"
+distcc[2034] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2034] found tcp token "Argento.local.:3632"
+distcc[2034] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[2034] /tmp/distcc_000001f5/lock_cpu_tcp_sue-pbg4titan.local._3632_0 is busy
+distcc[2034] got cpu lock on Argento.local. slot 0
+distcc[2034] got xmit lock on Argento.local. slot 0
+distcc[2034] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[2034] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo
+distcc[2034] child started as pid2036
+distcc[2034] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c tftpd.c -MT tftpd.o -MD -MP -MF .deps/tftpd.TPo -o tftpd.o
+distcc[2034] result: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[2034] exec on Argento.local.: cc -g -O2 -Wall -Werror -c tftpd.c -o tftpd.o
+distcc[2036] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2034] client got connection to Argento.local. port 3632 on fd0
+distcc[2034] send DIST00000001
+distcc[2034] send ARGC00000009
+distcc[2034] send ARGV00000002
+distcc[2034] send ARGV00000002
+distcc[2034] send ARGV00000003
+distcc[2034] send ARGV00000005
+distcc[2034] send ARGV00000007
+distcc[2034] send ARGV00000002
+distcc[2034] send ARGV00000007
+distcc[2034] send ARGV00000002
+distcc[2034] send ARGV00000007
+distcc[2029] child 2031 terminated with status 0
+distcc[2029] cpp resource usage: 0.010000s user, 0.020000s system
+distcc[2029] cpp on h067n185.iij.ad.jp completed ok
+distcc[2029] send 46604 byte file /tmp/distcc_000001f5/cppout_0000002029.i with token DOTI
+distcc[2029] send DOTI0000b60c
+distcc[2029] 46604 bytes sent in 0.025s, rate 1857kB/s
+distcc[2029] client finished sending request to server
+distcc[2029] release lock
+distcc[2025] child 2027 terminated with status 0
+distcc[2025] cpp resource usage: 0.030000s user, 0.030000s system
+distcc[2025] cpp on h067n185.iij.ad.jp completed ok
+distcc[2025] send 29853 byte file /tmp/distcc_000001f5/cppout_0000002025.i with token DOTI
+distcc[2025] send DOTI0000749d
+distcc[2025] 29853 bytes sent in 0.001s, rate 50967kB/s
+distcc[2025] client finished sending request to server
+distcc[2025] release lock
+distcc[2034] child 2036 terminated with status 0
+distcc[2034] cpp resource usage: 0.050000s user, 0.010000s system
+distcc[2034] cpp on h067n185.iij.ad.jp completed ok
+distcc[2034] send 42735 byte file /tmp/distcc_000001f5/cppout_0000002034.i with token DOTI
+distcc[2034] send DOTI0000a6ef
+distcc[2034] 42735 bytes sent in 0.001s, rate 28468kB/s
+distcc[2034] client finished sending request to server
+distcc[2034] release lock
+distcc[2029] got DONE00000001
+distcc[2029] got response header
+distcc[2029] got STAT00000000
+distcc[2029] got SERR00000000
+distcc[2029] got SOUT00000000
+distcc[2029] got DOTO00003e08
+distcc[2029] received 15880 bytes to file proto_udp.o
+distcc[2029] 15880 bytes received in 0.001s, rate 25134kB/s
+distcc[2029] release lock
+distcc[2029] compile on sue-pbg4titan.local. completed ok
+distcc[2029] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.10000 user 0.20000 sys
+distcc[2029] deleted 1 temporary files
+distcc[2034] got DONE00000001
+distcc[2034] got response header
+distcc[2034] got STAT00000000
+distcc[2034] got SERR00000000
+distcc[2034] got SOUT00000000
+distcc[2034] got DOTO00002ac4
+distcc[2034] received 10948 bytes to file tftpd.o
+distcc[2034] 10948 bytes received in 0.006s, rate 1652kB/s
+distcc[2034] release lock
+distcc[2034] compile on Argento.local. completed ok
+distcc[2034] exit: code 0; self: 0.10000 user 0.0000 sys; children: 0.50000 user 0.10000 sys
+distcc[2034] deleted 1 temporary files
+distcc[2049] safeguard level=0
+distcc[2049] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[2049] found input file "proto_tftp.c"
+distcc[2049] no visible output file, going to add "-o proto_tftp.o" at end
+distcc[2049] compile from proto_tftp.c to proto_tftp.o
+distcc[2049] client got connection to port 3633 on fd4
+distcc[2049] got ZCLL00000041
+distcc[2049] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2049] found tcp token "pbg4al.local.:3632"
+distcc[2049] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2049] found tcp token "Argento.local.:3632"
+distcc[2049] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[2049] got cpu lock on sue-pbg4titan.local. slot 0
+distcc[2049] got xmit lock on sue-pbg4titan.local. slot 0
+distcc[2049] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[2049] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo
+distcc[2049] child started as pid2051
+distcc[2049] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c proto_tftp.c -MT proto_tftp.o -MD -MP -MF .deps/proto_tftp.TPo -o proto_tftp.o
+distcc[2049] result: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[2049] exec on sue-pbg4titan.local.: cc -g -O2 -Wall -Werror -c proto_tftp.c -o proto_tftp.o
+distcc[2051] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2049] client got connection to sue-pbg4titan.local. port 3632 on fd0
+distcc[2049] send DIST00000001
+distcc[2049] send ARGC00000009
+distcc[2049] send ARGV00000002
+distcc[2049] send ARGV00000002
+distcc[2049] send ARGV00000003
+distcc[2049] send ARGV00000005
+distcc[2049] send ARGV00000007
+distcc[2049] send ARGV00000002
+distcc[2049] send ARGV0000000c
+distcc[2049] send ARGV00000002
+distcc[2049] send ARGV0000000c
+distcc[2025] got DONE00000001
+distcc[2025] got response header
+distcc[2025] got STAT00000000
+distcc[2025] got SERR00000000
+distcc[2025] got SOUT00000000
+distcc[2025] got DOTO00001a0c
+distcc[2025] received 6668 bytes to file pkt_buff.o
+distcc[2025] 6668 bytes received in 0.001s, rate 6935kB/s
+distcc[2025] release lock
+distcc[2025] compile on pbg4al.local. completed ok
+distcc[2025] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.30000 sys
+distcc[2025] deleted 1 temporary files
+distcc[2058] safeguard level=0
+distcc[2058] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[2058] found input file "task.c"
+distcc[2058] no visible output file, going to add "-o task.o" at end
+distcc[2058] compile from task.c to task.o
+distcc[2058] client got connection to port 3633 on fd4
+distcc[2058] got ZCLL00000041
+distcc[2058] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2058] found tcp token "pbg4al.local.:3632"
+distcc[2058] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2058] found tcp token "Argento.local.:3632"
+distcc[2058] got cpu lock on pbg4al.local. slot 0
+distcc[2058] got xmit lock on pbg4al.local. slot 0
+distcc[2058] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[2058] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E task.c -MT task.o -MD -MP -MF .deps/task.TPo
+distcc[2058] child started as pid2060
+distcc[2058] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c task.c -MT task.o -MD -MP -MF .deps/task.TPo -o task.o
+distcc[2058] result: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[2058] exec on pbg4al.local.: cc -g -O2 -Wall -Werror -c task.c -o task.o
+distcc[2060] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2058] client got connection to pbg4al.local. port 3632 on fd0
+distcc[2058] send DIST00000001
+distcc[2058] send ARGC00000009
+distcc[2058] send ARGV00000002
+distcc[2058] send ARGV00000002
+distcc[2058] send ARGV00000003
+distcc[2058] send ARGV00000005
+distcc[2058] send ARGV00000007
+distcc[2058] send ARGV00000002
+distcc[2058] send ARGV00000006
+distcc[2058] send ARGV00000002
+distcc[2058] send ARGV00000006
+distcc[2062] safeguard level=0
+distcc[2062] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[2062] found input file "timer.c"
+distcc[2062] no visible output file, going to add "-o timer.o" at end
+distcc[2062] compile from timer.c to timer.o
+distcc[2062] client got connection to port 3633 on fd4
+distcc[2062] got ZCLL00000041
+distcc[2062] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2062] found tcp token "pbg4al.local.:3632"
+distcc[2062] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2062] found tcp token "Argento.local.:3632"
+distcc[2062] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[2062] /tmp/distcc_000001f5/lock_cpu_tcp_sue-pbg4titan.local._3632_0 is busy
+distcc[2062] got cpu lock on Argento.local. slot 0
+distcc[2062] got xmit lock on Argento.local. slot 0
+distcc[2062] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[2062] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo
+distcc[2062] child started as pid2064
+distcc[2062] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c timer.c -MT timer.o -MD -MP -MF .deps/timer.TPo -o timer.o
+distcc[2062] result: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[2062] exec on Argento.local.: cc -g -O2 -Wall -Werror -c timer.c -o timer.o
+distcc[2064] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2062] client got connection to Argento.local. port 3632 on fd0
+distcc[2062] send DIST00000001
+distcc[2062] send ARGC00000009
+distcc[2062] send ARGV00000002
+distcc[2062] send ARGV00000002
+distcc[2062] send ARGV00000003
+distcc[2062] send ARGV00000005
+distcc[2062] send ARGV00000007
+distcc[2062] send ARGV00000002
+distcc[2062] send ARGV00000007
+distcc[2062] send ARGV00000002
+distcc[2062] send ARGV00000007
+distcc[2049] child 2051 terminated with status 0
+distcc[2049] cpp resource usage: 0.030000s user, 0.040000s system
+distcc[2049] cpp on h067n185.iij.ad.jp completed ok
+distcc[2049] send 52398 byte file /tmp/distcc_000001f5/cppout_0000002049.i with token DOTI
+distcc[2049] send DOTI0000ccae
+distcc[2049] 52398 bytes sent in 0.024s, rate 2121kB/s
+distcc[2049] client finished sending request to server
+distcc[2049] release lock
+distcc[2062] child 2064 terminated with status 0
+distcc[2062] cpp resource usage: 0.020000s user, 0.020000s system
+distcc[2062] cpp on h067n185.iij.ad.jp completed ok
+distcc[2062] send 20485 byte file /tmp/distcc_000001f5/cppout_0000002062.i with token DOTI
+distcc[2062] send DOTI00005005
+distcc[2062] 20485 bytes sent in 0.001s, rate 33121kB/s
+distcc[2062] client finished sending request to server
+distcc[2062] release lock
+distcc[2058] child 2060 terminated with status 0
+distcc[2058] cpp resource usage: 0.030000s user, 0.030000s system
+distcc[2058] cpp on h067n185.iij.ad.jp completed ok
+distcc[2058] send 53209 byte file /tmp/distcc_000001f5/cppout_0000002058.i with token DOTI
+distcc[2058] send DOTI0000cfd9
+distcc[2058] 53209 bytes sent in 0.002s, rate 26881kB/s
+distcc[2058] client finished sending request to server
+distcc[2058] release lock
+distcc[2062] got DONE00000001
+distcc[2062] got response header
+distcc[2062] got STAT00000000
+distcc[2062] got SERR00000000
+distcc[2062] got SOUT00000000
+distcc[2062] got DOTO0000103c
+distcc[2062] received 4156 bytes to file timer.o
+distcc[2062] 4156 bytes received in 0.001s, rate 3047kB/s
+distcc[2062] release lock
+distcc[2062] compile on Argento.local. completed ok
+distcc[2062] exit: code 0; self: 0.0000 user 0.20000 sys; children: 0.20000 user 0.20000 sys
+distcc[2062] deleted 1 temporary files
+distcc[2072] safeguard level=0
+distcc[2072] scanning arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[2072] found input file "util.c"
+distcc[2072] no visible output file, going to add "-o util.o" at end
+distcc[2072] compile from util.c to util.o
+distcc[2072] client got connection to port 3633 on fd4
+distcc[2072] got ZCLL00000041
+distcc[2072] Read zeroconfig service list: pbg4al.local.:3632 sue-pbg4titan.local.:3632 Argento.local.:3632
+distcc[2072] found tcp token "pbg4al.local.:3632"
+distcc[2072] found tcp token "sue-pbg4titan.local.:3632"
+distcc[2072] found tcp token "Argento.local.:3632"
+distcc[2072] /tmp/distcc_000001f5/lock_cpu_tcp_pbg4al.local._3632_0 is busy
+distcc[2072] /tmp/distcc_000001f5/lock_cpu_tcp_sue-pbg4titan.local._3632_0 is busy
+distcc[2072] got cpu lock on Argento.local. slot 0
+distcc[2072] got xmit lock on Argento.local. slot 0
+distcc[2072] result: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[2072] forking to execute: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -E util.c -MT util.o -MD -MP -MF .deps/util.TPo
+distcc[2072] child started as pid2074
+distcc[2072] original arguments: cc -DHAVE_CONFIG_H -I. -I. -I.. -g -O2 -Wall -Werror -c util.c -MT util.o -MD -MP -MF .deps/util.TPo -o util.o
+distcc[2072] result: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[2072] exec on Argento.local.: cc -g -O2 -Wall -Werror -c util.c -o util.o
+distcc[2074] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2072] client got connection to Argento.local. port 3632 on fd0
+distcc[2072] send DIST00000001
+distcc[2072] send ARGC00000009
+distcc[2072] send ARGV00000002
+distcc[2072] send ARGV00000002
+distcc[2072] send ARGV00000003
+distcc[2072] send ARGV00000005
+distcc[2072] send ARGV00000007
+distcc[2072] send ARGV00000002
+distcc[2072] send ARGV00000006
+distcc[2072] send ARGV00000002
+distcc[2072] send ARGV00000006
+distcc[2072] child 2074 terminated with status 0
+distcc[2072] cpp resource usage: 0.050000s user, 0.020000s system
+distcc[2072] cpp on h067n185.iij.ad.jp completed ok
+distcc[2072] send 40144 byte file /tmp/distcc_000001f5/cppout_0000002072.i with token DOTI
+distcc[2072] send DOTI00009cd0
+distcc[2072] 40144 bytes sent in 0.001s, rate 38624kB/s
+distcc[2072] client finished sending request to server
+distcc[2072] release lock
+distcc[2072] got DONE00000001
+distcc[2072] got response header
+distcc[2072] got STAT00000000
+distcc[2072] got SERR00000000
+distcc[2072] got SOUT00000000
+distcc[2072] got DOTO000032ec
+distcc[2072] received 13036 bytes to file util.o
+distcc[2072] 13036 bytes received in 0.002s, rate 5802kB/s
+distcc[2072] release lock
+distcc[2072] compile on Argento.local. completed ok
+distcc[2072] exit: code 0; self: 0.0000 user 0.20000 sys; children: 0.50000 user 0.20000 sys
+distcc[2072] deleted 1 temporary files
+distcc[2049] got DONE00000001
+distcc[2049] got response header
+distcc[2049] got STAT00000000
+distcc[2049] got SERR00000000
+distcc[2049] got SOUT00000000
+distcc[2049] got DOTO00006158
+distcc[2049] received 24920 bytes to file proto_tftp.o
+distcc[2049] 24920 bytes received in 0.001s, rate 35579kB/s
+distcc[2049] release lock
+distcc[2049] compile on sue-pbg4titan.local. completed ok
+distcc[2049] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.40000 sys
+distcc[2049] deleted 1 temporary files
+distcc[2058] got DONE00000001
+distcc[2058] got response header
+distcc[2058] got STAT00000000
+distcc[2058] got SERR00000000
+distcc[2058] got SOUT00000000
+distcc[2058] got DOTO00007844
+distcc[2058] received 30788 bytes to file task.o
+distcc[2058] 30788 bytes received in 0.004s, rate 6789kB/s
+distcc[2058] release lock
+distcc[2058] compile on pbg4al.local. completed ok
+distcc[2058] exit: code 0; self: 0.0000 user 0.10000 sys; children: 0.30000 user 0.30000 sys
+distcc[2058] deleted 1 temporary files
+distcc[2081] safeguard level=0
+distcc[2081] scanning arguments: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[2081] found object/output file "sue.tftpd"
+distcc[2081] found object/output file "tftpd.o"
+distcc[2081] called for link?  i give up
+distcc[2081] got cpu lock on localhost slot 0
+distcc[2081] exec on localhost: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[2081] forking to execute: cc -g -O2 -Wall -Werror -o sue.tftpd tftpd.o pkt_buff.o proto_udp.o proto_tftp.o task.o timer.o util.o
+distcc[2081] child started as pid2082
+distcc[2082] setting safeguard: _DISTCC_SAFEGUARD=1
+distcc[2081] child 2082 terminated with status 0
+distcc[2081] cc resource usage: 0.020000s user, 0.030000s system
+distcc[2081] compile on h067n185.iij.ad.jp completed ok
+distcc[2081] exit: code 0; self: 0.0000 user 0.0000 sys; children: 0.20000 user 0.30000 sys
+distcc[2081] deleted 0 temporary files
